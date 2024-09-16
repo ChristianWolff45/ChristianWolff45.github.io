@@ -5,10 +5,10 @@ p{
     text-align: center; color: blue;
 }
 .center{
-    text-align: right; color: green;
+    text-align: center; color: green;
 } 
 body{
-    background-color: rgba(198, 193, 226, 0.685);
+    background-color: rgba(226, 200, 193, 0.685);
     font-family: Arial,Helvetica,sans-serif;
 }
 h1{
