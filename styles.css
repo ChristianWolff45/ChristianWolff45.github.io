@@ -23,6 +23,9 @@ body{
     margin: 10px;
     border: 2px solid purple;
     display: block;
+    object-fit: contain; 
+    background-color: white; 
+    margin: auto;
 }
 
 .project p{
