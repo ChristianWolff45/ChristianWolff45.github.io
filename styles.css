@@ -12,17 +12,23 @@ body{
     font-family: Arial,Helvetica,sans-serif;
 }
 .project a{
-    text-align: left;
+    text-align: center;
     color: rgb(43, 96, 175);
     font-family: Helvetica,sans-serif;
 }
-.project img{
+
+.project img {
     width: 300px;
-    height: auto;
+    height: 300px; 
     margin: 10px;
     border: 2px solid purple;
     display: block;
-    margin: auto;
+}
+
+.project p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
 }
 h1{
     color: darkslategray;
