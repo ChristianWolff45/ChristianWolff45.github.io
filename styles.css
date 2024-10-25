@@ -17,11 +17,17 @@ body{
     font-family: Helvetica,sans-serif;
 }
 
+.project a{
+    text-align: center;
+    color: rgb(43, 96, 175);
+    font-family: Helvetica,sans-serif;
+}
+
 .project img {
     width: 300px;
     height: 300px; 
     margin: 10px;
-    border: 2px solid purple;
+    border: 2px solid rgb(43, 96, 175);;
     display: block;
     object-fit: contain; 
     background-color: white; 
@@ -50,4 +56,25 @@ h2{
     padding: 20px 10px;
     background: white; 
     border-radius: 25%;
+    border: 2px solid purple;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between image and text */
+    max-width: 800px; /* Limits content width */
+    margin: 0 auto; /* Centers the container */
+}
+
+.about img {
+    width: 150px; 
+    height: auto;
+    border-radius: 15px; /* Rounds corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+.about p {
+    font-size: 1rem;
+    line-height: 1.6;
 }
