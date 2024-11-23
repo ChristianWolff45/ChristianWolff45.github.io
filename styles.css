@@ -78,3 +78,10 @@ h2{
     font-size: 1rem;
     line-height: 1.6;
 }
+.resume{
+    text-indent: 30px;
+    font-family: Helvetica,sans-serif;
+}
+.resume a{
+    color: rgb(43, 96, 175);
+}
